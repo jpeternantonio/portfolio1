@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="icon" type="image/gif/png" href="assets/images/image1.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<title>Portfolio</title>
+</head>
+<body>
+<div class="container-fluid">
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+			<a href="index.html" class="navbar-brand">JPA Portfolio</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbar-nav" class="collapse navbar-collapse">
+        		<ul class="navbar-nav ml-auto">
+         			 <li class="nav-item active">
+           			 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a></li>
+          			 <li class="nav-item">
+            		 <a class="nav-link" href="#projects">Projects</a></li>
+          			 <li class="nav-item">
+            		 <a class="nav-link" href="#skills">Skills</a></li>
+          			 <li class="nav-item">
+            		 <a class="nav-link" href="#contact">Contact</a></li>
+        		</ul>
+      		</div>
+   	</nav>
+</div>
+	
+	<div class="container" id="home">
+   		<section id="showcase">
+     		<div class="row">
+          		<div class="col-md-6 col-sm-6">
+            		<div class="showcase-left">
+              		<img src="assets/images/profile.jpg" alt="profile">
+            	</div>
+          	</div>
+          		<div class="col-md-6 col-sm-6">
+            		<div class="showcase-right">
+              			<h1>John Peter Antonio</h1>
+              			<h2 class="full">Full Stack Web Developer</h2>
+              			<h3>Front-end Innovator</h3>
+              			<h3>Back-end Expert</h3>
+              			<h3>Database Administrator</h3>
+            		</div>
+          		</div>
+        	</div>
+        </section>
+    </div>
+    
+
+    <section id="description">
+      	<div class="container">
+        	<p>"Aspiring to become a full-stack web developer, I achieved and still continue to grow to become <q>a full-stack developer that has all the keys to the house — there is no door that I cannot open</q></p>
+      	</div>
+    </section>
+  
+
+    <section id="info1" class="info3">
+      	<div class="container">
+      		<h1 class="center" id="projects">Projects</h1>
+       			<div class="row">
+          			<div class="col-md-6 col-sm-6">
+            			<div class="info-left">
+              			<img class="cimage" src="assets/images/capstone.png">
+            			</div>
+          			</div>
+          			<div class="col-md-6 col-sm-6">
+            			<div class="info-right">
+              				<h2><a class="black" href="#">Marvelous Capstone</a></h2>
+              				<p>This Capstone open the world to me in front-end delopment, showcasing my amazing skills on HTML5, CSS3, and Bootstrap 4. This project is something you've never seen before. Be prepare to be amazed!!!</p>
+            			</div>
+          			</div>
+        		</div>
+      		</div>
+    </section>
+    
+
+    <section id="info1">
+      	<div class="container">
+        	<div class="row">
+          		<div class="col-md-6 col-sm-6">
+            		<div class="left">
+              		<img class="cimage" src="assets/images/front-end.png">
+            		</div>
+          		</div>
+          		<div class="col-md-6 col-sm-12 col-xs-12">
+            		<div class="right">
+              			<h2 class="text-center" id="skills">Designer Skills</h2>
+              			<img class="skimage" src="assets/images/html5.png">
+              			<img class="skimage" src="assets/images/css3.png">
+              			<img class="skimage" src="assets/images/b1.png">
+            		</div>
+          		</div>
+        	</div>
+      	</div>
+    </section>
+  
+
+    <section id="contact">
+      	<div class="container">
+        	<div class="row">
+          		<div class="col-md-12 col-sm-12 .left">
+          			<div class="contact2">
+            			<h2>Contact Me</h2>
+          					<p>e-mail: jpeternatnonio@gmail.com</p>
+          					<a href="#"><i class="fas fa-envelope fa-2x"></i></a>
+     						<a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      		 				<a href="#"><i class="fab fa-github fa-2x"></i></a>
+      		 				<a href="#"><i class="fab fa-gitlab fa-2x"></i></a>
+      		 				<a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+          			</div>
+    	  		</div>
+        	</div>
+      	</div>	
+    </section>
+
+
+  
+
+    <footer>
+      <p class="text-center">JPA Portfolio Copyright &copy; 2018</p>
+     
+    </footer>
+
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img class="arrow" src="assets/images/arrow.png"></button>
+
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+	function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+    <script>
+        window.sr = ScrollReveal({ reset: true }); 
+        sr.reveal('.navbar', {
+          duration: 2000,
+          origin:'bottom'
+        });
+        sr.reveal('.showcase-left', {
+          duration: 2000,
+          origin:'top',
+          distance:'300px'
+        });
+        sr.reveal('.left', {
+          duration: 2000,
+          origin:'top',
+          distance:'300px'
+        });
+        sr.reveal('.showcase-right', {
+          duration: 2000,
+          origin:'top',
+          distance:'300px'
+        });
+        sr.reveal('#description', {
+          duration: 2000,
+          delay: 1000,
+          origin:'bottom'
+        });
+        sr.reveal('.info-left', {
+          duration: 2000,
+          origin:'bottom'
+        });
+        sr.reveal('.info-right', {
+          duration: 2000,
+          origin:'left',
+          distance:'300px',
+          viewFactor: 0.2
+        });
+        sr.reveal('.right', {
+          duration: 2000,
+          origin:'top',
+          distance:'300px',
+          viewFactor: 0.2
+        });
+        sr.reveal('.contact2', {
+          duration: 2000,
+          origin:'top',
+          distance:'300px',
+          viewFactor: 0.2
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery first then popper then bootsrap js	 -->
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<!-- external bootstrap js -->
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
